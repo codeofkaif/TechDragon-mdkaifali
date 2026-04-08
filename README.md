@@ -1,53 +1,75 @@
-# 🧑🏻‍💻 Kalpathon 2.0 – AI / SLM Fine-Tuning  
-## 🧠 Team: TachDragon  
+# 🧑🏻‍💻 Kalpathon Hackathon Submission  
 
 ---
 
-## 👥 Team Members  
-- Team Leader: Md Kaif Ali  
-- Members:  
-  - Md Kaif Ali  
-  - Mojammil Husain  
-  - Jishan  
+## 🧠 Team Name  
+TachDragon  
 
 ---
 
-## 🚀 About the Project  
-We are participating in Kalpathon 2.0 under the AI / SLM Fine-Tuning track as Team TachDragon.  
-
-This repository is used to develop, organize, and manage our hackathon project throughout the event.  
+## 🚀 Project Name  
+AI Rasoi – Personalized Recipe Generator  
 
 ---
 
-## 💡 Problem Statement  
-Personalized Recipe Generator  
-
-The goal of this project is to build an AI-powered system that takes user-input ingredients and generates complete step-by-step recipes, with a focus on Indian cuisine.  
+## 🤖 Selected Track  
+AI / SLM Fine-Tuning  
 
 ---
 
-## 📌 Current Status  
-🚧 Work in Progress  
-
-### 🔄 Ongoing Tasks  
-- Dataset collection and preparation  
-- Problem understanding and planning  
-- Initial project setup  
+## 💡 Selected Problem Statement (PS)  
+Problem 2: Personalized Recipe Generator  
 
 ---
 
-## 🛠️ Project Phase  
-The project is currently in the planning and setup stage. The team is working on finalizing the approach and preparing the development environment.  
+## 👤 Team Leader  
+Name: Md Kaif Ali  
+Phone: [Add your phone number]  
 
 ---
 
-## 📂 Repository Purpose  
-- Project development  
-- Source code management  
-- Team collaboration  
-- Tracking progress during the hackathon  
+## 👥 Team Members & Roles  
+
+| Name              | Role                  |
+|------------------|----------------------|
+| Md Kaif Ali      | AI/ML,Backend        |
+| Mojammil Husain  | AI/ML,Backend        |
+| Jishan           | Frontend Developer   |
 
 ---
 
-## ✨ Stay Tuned  
-More updates will be added as the project progresses.
+## 📌 Project Description  
+
+### 🔍 Problem  
+Many people do not know what to cook with the ingredients they already have. Searching recipes takes time and is often confusing.  
+
+---
+
+### 💡 Solution  
+We are building an AI-powered system that takes user-input ingredients and generates a complete recipe with step-by-step instructions, focused on Indian cuisine.  
+
+---
+
+### ⚙️ Key Features  
+- Ingredient-based recipe generation  
+- Step-by-step cooking instructions  
+- Indian cuisine focus  
+- Simple and user-friendly interface  
+
+---
+
+## 🛠️ Tech Stack  
+- Frontend: React.js (Web Interface)  
+- Backend: Spring Boot (Java)  
+- AI/ML: Gemma 3 270M   
+- Database: PostgreSQL (with JPA/Hibernate)
+---
+
+### 🌍 Impact  
+This project helps users save time, reduce food waste, and cook easily using available ingredients. It is especially useful for students and beginners.  
+
+---
+
+## 🔗 Additional Links (Optional)  
+- Presentation: [Add link here]  
+- GitHub Repository: [Add link here]
