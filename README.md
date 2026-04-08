@@ -24,7 +24,7 @@ Problem 2: Personalized Recipe Generator
 
 ## 👤 Team Leader  
 Name: Md Kaif Ali  
-Phone: [Add your phone number]  
+Phone: 6388913772  
 
 ---
 
@@ -68,8 +68,3 @@ We are building an AI-powered system that takes user-input ingredients and gener
 ### 🌍 Impact  
 This project helps users save time, reduce food waste, and cook easily using available ingredients. It is especially useful for students and beginners.  
 
----
-
-## 🔗 Additional Links (Optional)  
-- Presentation: [Add link here]  
-- GitHub Repository: [Add link here]
