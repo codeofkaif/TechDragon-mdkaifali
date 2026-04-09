@@ -1,0 +1,10 @@
+# After training: install alongside requirements.txt for local HF inference.
+# Pick ONE torch install (CPU example below; use CUDA wheel from pytorch.org if you have a GPU).
+#
+#   pip install -r requirements.txt
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements-hf.txt
+
+transformers>=4.40.0
+accelerate>=0.30.0
+safetensors>=0.4.0

@@ -1,0 +1,41 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: airasoi
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/airasoi}
+    username: ${DB_USERNAME:${USER}}
+    password: ${DB_PASSWORD:}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+
+logging:
+  level:
+    org.hibernate.SQL: WARN
+
+ai:
+  provider: ollama
+  ollama:
+    base-url: ${OLLAMA_BASE_URL:http://localhost:11434}
+    model: ${OLLAMA_MODEL:gemma:2b}
+    temperature: ${OLLAMA_TEMPERATURE:0.7}
+  fastapi:
+    base-url: ${AI_SERVICE_URL:http://localhost:8000}
+    generate-path: ${AI_SERVICE_GENERATE_PATH:/generate}
+    connect-timeout-ms: ${AI_SERVICE_CONNECT_TIMEOUT_MS:10000}
+    read-timeout-ms: ${AI_SERVICE_READ_TIMEOUT_MS:180000}
+    retry:
+      max-attempts: ${AI_SERVICE_RETRY_MAX_ATTEMPTS:3}
+      backoff-ms: ${AI_SERVICE_RETRY_BACKOFF_MS:400}
+    cache:
+      enabled: ${AI_SERVICE_CACHE_ENABLED:false}
+      ttl-minutes: ${AI_SERVICE_CACHE_TTL_MINUTES:30}
+      max-entries: ${AI_SERVICE_CACHE_MAX_ENTRIES:500}
